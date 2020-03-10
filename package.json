@@ -1,6 +1,6 @@
 {
   "name": "af-babel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Get best practice babel config of Ant financial.",
   "main": "lib/index.js",
   "repository": {
@@ -31,4 +31,3 @@
   },
   "homepage": "https://www.npmjs.com/package/af-babel#readme"
 }
-
