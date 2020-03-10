@@ -16,16 +16,19 @@
     "url": "https://github.com/rich-lab/af-babel/issues"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@umijs/babel-preset-umi": "3.0.0-beta.22"
   },
   "devDependencies": {
-    "jest-cli": "^25.1.0"
+    "jest-cli": "^25.1.0",
+    "conventional-changelog-cli": "^2.0.31"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "homepage": "https://www.npmjs.com/package/af-babel#readme"
 }
+
