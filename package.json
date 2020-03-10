@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test": "jest",
+    "cov": "jest --coverage",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "dependencies": {
