@@ -10,7 +10,7 @@ This package provides the shortest approach for you to get the babel config of A
 
 ```js
 const afBabel = require('af-babel')
-afBabel(/* Options */)
+afBabel(/* Options */) // => standard babel config.
 ```
 
 ## Options
