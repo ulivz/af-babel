@@ -2,6 +2,8 @@
 
 > Get best practice babel config of Ant financial.
 
+[![NPM version](https://img.shields.io/npm/v/af-babel.svg?style=flat)](https://npmjs.com/package/af-babel) [![NPM downloads](https://img.shields.io/npm/dm/af-babel.svg?style=flat)](https://npmjs.com/package/af-babel) ![Node.js CI](https://github.com/rich-lab/af-babel/workflows/Node.js%20CI/badge.svg) [![codecov](https://codecov.io/gh/rich-lab/af-babel/branch/master/graph/badge.svg)](https://codecov.io/gh/rich-lab/af-babel)
+
 ## Introduction
 
 This package provides the shortest approach for you to get the babel config of Ant financial, with [@umijs/babel-preset-umi](https://github.com/umijs/umi-next/tree/master/packages/babel-preset-umi) under the hood.
