@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babelConfig 1`] = `
+Object {
+  "babelrc": false,
+  "plugins": Array [
+    Array [
+      "babel-plugin-import",
+      Object {
+        "libraryName": "antd-mobile",
+        "style": true,
+      },
+    ],
+  ],
+  "presets": Array [
+    Array [
+      "/node_modules/_@umijs_babel-preset-umi@3.0.0-beta.22@@umijs/babel-preset-umi/app.js",
+      Object {
+        "import": Array [
+          Object {
+            "libraryName": "antd-mobile",
+            "style": true,
+          },
+          Object {
+            "camel2DashComponentName": false,
+            "libraryDirectory": "",
+            "libraryName": "lodash",
+          },
+        ],
+        "nodeEnv": "production",
+      },
+    ],
+  ],
+  "sourceType": "unambiguous",
+}
+`;
+
+exports[`default config 1`] = `
+Object {
+  "babelrc": false,
+  "plugins": Array [],
+  "presets": Array [
+    Array [
+      "/node_modules/_@umijs_babel-preset-umi@3.0.0-beta.22@@umijs/babel-preset-umi/app.js",
+      Object {
+        "import": Array [
+          Object {
+            "libraryName": "antd-mobile",
+            "style": true,
+          },
+          Object {
+            "camel2DashComponentName": false,
+            "libraryDirectory": "",
+            "libraryName": "lodash",
+          },
+        ],
+        "nodeEnv": "production",
+      },
+    ],
+  ],
+  "sourceType": "unambiguous",
+}
+`;
+
+exports[`presetOptions 1`] = `
+Object {
+  "babelrc": false,
+  "plugins": Array [],
+  "presets": Array [
+    Array [
+      "/node_modules/_@umijs_babel-preset-umi@3.0.0-beta.22@@umijs/babel-preset-umi/app.js",
+      Object {
+        "env": Object {
+          "targets": Object {
+            "chrome": 73,
+          },
+        },
+        "import": Array [
+          Object {
+            "libraryName": "antd-mobile",
+            "style": true,
+          },
+          Object {
+            "camel2DashComponentName": false,
+            "libraryDirectory": "",
+            "libraryName": "lodash",
+          },
+        ],
+        "nodeEnv": "production",
+      },
+    ],
+  ],
+  "sourceType": "unambiguous",
+}
+`;

@@ -1,0 +1,31 @@
+{
+  "name": "af-babel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.alipay-inc.com/sherry/sherry"
+  },
+  "keywords": [
+    "sherry",
+    "fengdie"
+  ],
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "bugs": {
+    "url": "https://github.com/rich-lab/af-babel/issues"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@umijs/babel-preset-umi": "3.0.0-beta.22"
+  },
+  "devDependencies": {
+    "jest-cli": "^25.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://www.npmjs.com/package/af-babel#readme"
+}
