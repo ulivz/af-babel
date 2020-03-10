@@ -1,6 +1,6 @@
 # af-babel
 
-> Get babel config of Ant financial for best practice.
+> Get best practice babel config of Ant financial.
 
 ## Introduction
 

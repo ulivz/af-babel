@@ -1,7 +1,7 @@
 {
   "name": "af-babel",
   "version": "0.0.1",
-  "description": "",
+  "description": "Get best practice babel config of Ant financial.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
