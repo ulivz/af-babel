@@ -78,6 +78,11 @@ export interface IPresetOptions {
    * https://github.com/ant-design/babel-plugin-import
    */
   import?: IImportPluginOpts[];
+  /**
+   * Flag to enable babel-plugin-lock-core-js-3 and its options.
+   * https://github.com/umijs/umi/tree/master/packages/babel-plugin-lock-core-js-3
+   */
+  lockCoreJS3: boolean;
 }
 
 interface IImportPluginOpts {
