@@ -20,7 +20,7 @@ afBabel(/* Options */) // => standard babel config.
 ### presetOptions
 
 - Type: `IPresetOptions`
-- Description: Options for [@umijs/babel-preset-umi](https://github.com/umijs/umi-next/tree/master/packages/babel-preset-umi).
+- Description: Options for [@umijs/babel-preset-umi](https://github.com/umijs/umi/tree/master/packages/babel-preset-umi).
 
 ```typescript
 export interface IPresetOptions {
